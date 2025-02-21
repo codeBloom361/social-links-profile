@@ -1,0 +1,80 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+:root {
+  --location-color:  hsl(75, 94%, 57%);
+  --name-color:  hsl(0, 0%, 100%);
+  --para-color: hsl(0, 0%, 20%);
+  --background-color: hsl(0, 0%, 8%);
+  --main-background-color:  hsl(0, 0%, 12%);
+}
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--name-color);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.main-container {
+    background-color: var(--main-background-color);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 50%;
+}
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+h3{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.location{
+    color: var(--location-color);
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.info{
+    color: rgb(150, 145, 145);
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--name-color);
+    text-decoration: none;
+    background-color: var(--para-color);
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    width: 100%;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: var(--location-color);
+    color: var(--background-color);
+}
