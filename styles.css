@@ -78,3 +78,9 @@ a:hover{
     background-color: var(--location-color);
     color: var(--background-color);
 }
+
+@media screen and (min-width: 1440px){
+    .main-container{
+        width: 30%;
+    }
+}
