@@ -33,7 +33,7 @@ main{
     background-color: var(--main-background-color);
     padding: 2rem;
     border-radius: 10px;
-    width: 50%;
+    width: 30%;
 }
 img{
     height: 80px;
@@ -79,8 +79,9 @@ a:hover{
     color: var(--background-color);
 }
 
-@media screen and (min-width: 1440px){
+@media (max-width: 550px){
     .main-container{
-        width: 30%;
+        width: 80%;
     }
+    
 }
